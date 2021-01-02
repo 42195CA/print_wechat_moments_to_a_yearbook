@@ -1,0 +1,37 @@
+\documentclass[cn,11pt,chinese]{elegantbook}
+\title{一本\textcolor{red}{微}書　來自我的\textcolor{red}{微}信朋友圈}
+\author{劉曉陽}
+\institute{時光流水}
+\date{2000年12月31日}
+\version{2000年版本}
+\extrainfo{時光倒流}
+\logo{logo.jpg}
+\cover{cover.jpg}
+% 本文档命令
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{caption, subcaption}
+
+
+% 修改目录深度
+\setcounter{tocdepth}{2}
+\begin{document}
+\maketitle
+\frontmatter
+\chapter*{序言}
+\markboth{Introduction}{前言}
+我有愛寫日記的習慣，在日記本上寫，在網絡上寫．以前用微軟的MSN空間，２０１３年到了Brangford開始在微信朋友圈發表生活點滴，至今已經７年多．以前微信不開放下載渠道讓用戶方便地獲得自己寫的文字和發表的圖片，似乎那些東西一經傳到微信，版權就被騰訊公司霸有．去年中美貿易戰，美國政府威脅要關閉微信在美業務，也許歪打正着，微信＂被迫＂開放了下載渠道，以滿足美國對數字隱私權的保護．新年夜，我急忙申請下載，昨天寫了一個程序，把這些回憶改編成一本微書．作爲紀念．
+\par
+奮鬥吧中年人！
+\vskip 1.5cm
+\begin{flushright}
+劉曉陽\\
+２０２１年１月２日
+\end{flushright}
+\tableofcontents
+%\listofchanges
+\mainmatter
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+\input{moments.tex}
+\end{document}
